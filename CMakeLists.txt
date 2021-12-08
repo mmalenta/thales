@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.8 FATAL_ERROR)
 
 project(thales LANGUAGES CXX VERSION 0.1)
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
 add_executable(thales thales/thales.cpp 
